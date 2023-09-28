@@ -8,9 +8,10 @@ This project showcases a data engineering and analytics pipeline built on Micros
 The main steps of the project include:
 
 1. **Data Ingestion and Transformation**: Raw data is sourced from a GitHub repository using ADF's Copy Data Tool and stored in the ADLS2, transformed with Azure Databricks, and loaded back into ADLS2.
+ 
 
 2. **Data Warehousing**: A lake database is created in Azure Synapse Analytics to create the tables and to query the data
-
+ 
 3. **Data Analysis**: Queries are run on the tables in Azure Synapse Analytics to gain insights from the data.
 
 ## Prerequisites
@@ -24,4 +25,5 @@ The main steps of the project include:
 I would like to acknowledge the Azure platform and its powerful services that enable efficient data engineering and analytics.
 
 Data Source - Kaggle
+
 
